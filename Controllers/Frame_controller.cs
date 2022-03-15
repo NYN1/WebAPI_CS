@@ -15,6 +15,7 @@ namespace Test_integrate_task1_2.Controllers
         public Dictionary<string, frameDetails> My_Dictionary = new Dictionary<string, frameDetails>();
         //string path_i = "C:\\Users\\X6NALLUR\\Desktop\\Customer\\" + "customer" + ".json";
 
+
         [HttpGet()]
         public frameDetails[] CompleteFrameDetails()
         {
